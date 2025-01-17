@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: MovieTicketBookingPlatform
+  main:
+    allow-circular-references: true
+  data:
+    mongodb:
+      uri: mongodb+srv://sanitmits:FEdu5vaxa4b1Tzmw@cluster0.xoq1l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: MTBP
+      auto-index-creation: true
+
+server:
+  port: 8080
+
+
+
